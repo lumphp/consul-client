@@ -1,0 +1,17 @@
+{
+    "name": "lumphp/consul-client",
+    "type": "library",
+    "description": "php7 consul-client",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2.5",
+        "lumphp/http-client": "v0.1",
+        "psr/log": "^1.1",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lum\\ConsulClient\\": "src/"
+        }
+    }
+}
